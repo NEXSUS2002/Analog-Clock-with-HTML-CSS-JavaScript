@@ -18,7 +18,8 @@ body {
     height: 40vw;
     width: 40vw;
     background-image: url("/Analog-Clock-with-HTML-CSS-JavaScript/Assets/1197822.png");
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 100%;
     border: 1vw solid #000000;
 }
@@ -41,23 +42,24 @@ body {
 
 #hour {
     width: 1.8%;
-    height: 25%;
-    top: 25%;
+    height: 20%;
+    top: 30%;
     left: 48.85%;
 }
 
 #minute {
     width: 1.8%;
     height: 30%;
-    top: 19%;
-    left: 48.9%
+    top: 20%;
+    left: 48%;
 }
 
 #second {
     width: 1%;
     height: 40%;
     top: 9%;
-    left: 49.25%
+    left: 49.25%;
+    background: #e94242;
 }
 
 @media (max-width: 43.75rem) {
