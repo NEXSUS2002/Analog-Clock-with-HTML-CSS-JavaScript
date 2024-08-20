@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-image: url("/Analog-Clock-with-HTML-CSS-JavaScript/Assets/899326.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clockContainer {
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background-image: url("/Analog-Clock-with-HTML-CSS-JavaScript/Assets/1197822.png");
+    background-size: 100%;
+    border-radius: 100%;
+    border: 1vw solid #000000;
+}
+
+.nums {
+    position: relative;
+    top: 1.25rem;
+    left: 1.25rem;
+    width: 35vw;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: #FFC727;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+}
+
+#minute {
+    width: 1.8%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%
+}
+
+#second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%
+}
+
+@media (max-width: 43.75rem) {
+    .nums {
+        top: 8px;
+        left: 6px;
+    }
+}
+
+@media (max-width: 56.25rem) {
+    .nums {
+        top: 8px;
+        left: 12px;
+    }
+}
+
+@media (max-width: 43.75rem) {
+    .nums {
+        top: 8px;
+        left: 6px;
+    }
+}
